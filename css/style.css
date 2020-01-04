@@ -1,11 +1,11 @@
 @font-face {
   font-family: NEXTSemiBold;
-  src: url(/font/NEXTART_SemiBold.otf);
+  src: url(font/NEXTART_SemiBold.otf);
 }
 
 @font-face {
   font-family: NEXTThin;
-  src: url(/font/NEXTART_Thin.otf);
+  src: url(font/NEXTART_Thin.otf);
 }
 
 * {
