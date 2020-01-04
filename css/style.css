@@ -1,0 +1,83 @@
+@font-face {
+  font-family: NEXTSemiBold;
+  src: url(/font/NEXTART_SemiBold.otf);
+}
+
+@font-face {
+  font-family: NEXTThin;
+  src: url(/font/NEXTART_Thin.otf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  overflow: hidden;
+  font-family: NEXTThin;
+  background-color: black;
+  color: white;
+  font-size: 50px;
+}
+
+body .start {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+body .start #start {
+  font-family: NEXTSemiBold;
+  width: 100vw;
+  -webkit-transform: rotate(-65deg);
+          transform: rotate(-65deg);
+}
+
+.parts table {
+  border-bottom: 1px solid #0f0f0f;
+  width: 100%;
+  height: 20vh;
+}
+
+.parts table tr :nth-child(2) {
+  width: 10%;
+}
+
+.parts table h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 0px;
+  width: 100%;
+}
+
+.parts table img {
+  width: auto;
+  height: 10%;
+}
+
+.parts div div {
+  width: 90%;
+  margin: 25vh auto;
+  text-align: center;
+}
+
+.parts div div h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.parts div div h2 {
+  font-size: 25px;
+  text-align: center;
+  color: gray;
+}
+
+.parts div div p {
+  font-size: 20px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
